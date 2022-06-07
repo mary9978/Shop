@@ -17,7 +17,7 @@ function App() {
         <Route path='/' element={<MainLayout/>}>
            <Route index element={<Home/>}/>
         </Route>
-        <Route path='about' element={<Footer/>}/>
+        <Route path='electronic-devices' element={<Footer/>}/>
       </Routes>
       </BrowserRouter>
     </div>
