@@ -1,4 +1,5 @@
 import './App.css';
+import Header from '../src/components/Header/Header';
 import {
   BrowserRouter,
   Routes,
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<MainLayout/>}>
            <Route index element={<Home/>}/>
+           <Route path='products/:productId' element={<Header/>}/>
         </Route>
         <Route path='electronic-devices' element={<Footer/>}/>
       </Routes>

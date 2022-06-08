@@ -1,2 +1,3 @@
 import Home from "./Home/Home";
-export {Home};
+import ProductSingle from './ProductSingle/ProductSinge';
+export {Home,ProductSingle};

@@ -10,6 +10,7 @@ import tahrir from '../../assets/tahrir.png';
 import  varzesh from '../../assets/varzesh.png';
 import bomi from '../../assets/bomi.png';
 import CategoryList from '../../components/CategoryList/CategoryList';
+import { ProductList } from '../../components';
 //this is home page
 function Home() {
   const categoryList=[
@@ -28,6 +29,18 @@ function Home() {
     <>
     <div>this is banner</div>
     <CategoryList item={categoryList}/>
+    <section style={{paddingTop:'40px'}}>
+      <div className={'category_item'}>
+        <h5 className={'category_title'}>category name</h5>
+        <ProductList/>
+      </div>
+    </section>
+    <section>
+      this is a category2
+    </section>
+    <section>
+      this is a category3
+    </section>
     </>
   )
 }
